@@ -139,11 +139,10 @@
 
 .img-perfil {
     position: relative;
-    width: 260px;
-    height: 250px;
+    height: 270px;
     overflow: hidden;
     border-radius: 300px;
-    margin-right: 2em;
+    margin-left: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -173,7 +172,7 @@
 .row-stack {
     display: flex;
     justify-content:space-between;
-    margin-top: 5em;
+    margin-top: 3em;
     width: 90%;
     margin-bottom: 2em;
     
@@ -183,20 +182,54 @@
     background-image: linear-gradient(to right, #f1f1f1 0%, #fafafa 100%);
     background-clip: text;
     color: transparent;
+    margin-top: 1em;
 }
 
-.row-stack p {
+.row-stack i {
+    background-image:  linear-gradient(to right, #29eb69 0%, #20ffd6 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+
+.row-lenguaje {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+
+    
+}
+
+.col-stack {
     color: #f1f1f1;
-    text-align: center;
-    width: 70px;
+    width: 32%;
     box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.5);
     background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255,255,255,0));
     backdrop-filter:blur(10px);
     border-radius: 5px;
     border: 1px solid rgba(67, 250, 189, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
 }
 
+.col-stack:hover{
+    background-image: linear-gradient(to right, #29eb69 0%, #20ffd6 100%);
+}
+
+
+.col-stack p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
 
 
 .col-front {
@@ -241,3 +274,103 @@
     border: 1px solid rgba(67, 250, 189, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
+
+
+
+
+
+
+
+/* row proyectos */
+
+.row-proyectos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+
+.col-titulo-proyecto {
+    display: flex;
+    justify-content: center;
+    margin-top: 9em;
+    margin-bottom: 5em;
+    width: 90%;
+}
+
+.col-titulo-proyecto p {
+    text-align: center;
+    background-image: linear-gradient(to right, #d9dfdb 0%, #e7e7e7 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.col-proyectos {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+
+
+.row-primer-proyecto {
+    box-shadow: 0px 2px 6px 3px rgba(5, 5, 5, 0.5);
+    margin-bottom: 2em;
+    border-radius: 5px;
+}
+
+.col-detalle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+.col-detalle h1 {
+    color: #d9dfdb;
+    font-size: 30px;
+    border-bottom: 1px solid #29eb69;
+}
+
+.col-detalle p {
+    color: #d9dfdb;
+    font-size: 18px;
+}
+
+.col-detalle i {
+    background-image:  linear-gradient(to right, #29eb69 0%, #20ffd6 100%);
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+}
+
+.col-video {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+
+
+/* row contactame */
+
+.row-contacto {
+    display: flex;
+    margin-top: 4em;
+    margin-bottom: 5em;
+    border-top:#29eb69 solid 1px;
+    border-bottom:#29eb69 solid 1px;
+}
+
+.col-icon i {
+    background-image:  linear-gradient(to right, #29eb69 0%, #20ffd6 100%);
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    font-size: 25px;
+    
+}
+
