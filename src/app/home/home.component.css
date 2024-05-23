@@ -78,14 +78,14 @@
 
 .col-saludo {
     margin-top: 1em;
-    font-size: 18px;
+    font-size: 22px;
     color: aliceblue;
     text-align: center;
 }
 
 .col-nombre h1 {
     text-align: center;
-    background-image: linear-gradient(to right, #29eb69 0%, #20ffd6 100%);
+    background-image: linear-gradient(to right, #17c250 0%, #05e2ba 100%);
     background-clip: text;
     color: transparent;
     font-size: 70px;
@@ -139,7 +139,6 @@
 
 .img-perfil {
     position: relative;
-    height: 270px;
     overflow: hidden;
     border-radius: 300px;
     margin-top: 1em;
@@ -171,7 +170,7 @@
 .row-stack {
     display: flex;
     justify-content:space-between;
-    margin-top: 3em;
+    margin-top: 2em;
     width: 90%;
     margin-bottom: 2em;
     
@@ -196,8 +195,6 @@
     display: flex;
     justify-content: center;
 
-
-
     
 }
 
@@ -212,6 +209,7 @@
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     justify-content: center;
     align-items: center;
+    display: flex;
     margin-top: 1em;
     margin-bottom: 1em;
     cursor: pointer;
@@ -227,7 +225,8 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 3px;
+    margin-top: 10px;
+   
 }
 
 
@@ -243,6 +242,7 @@
     border: 1px solid rgba(67, 250, 189, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     margin-bottom: 1em;
+    
 }
 
 
@@ -295,17 +295,18 @@
 .col-titulo-proyecto {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-top: 9em;
     margin-bottom: 5em;
-    width: 90%;
+    width: 100%;
 }
 
 .col-titulo-proyecto p {
-    text-align: center;
     background-image: linear-gradient(to right, #d9dfdb 0%, #e7e7e7 100%);
     background-clip: text;
     color: transparent;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -353,6 +354,8 @@
     width: 100%;
     height: auto;
     max-width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 
