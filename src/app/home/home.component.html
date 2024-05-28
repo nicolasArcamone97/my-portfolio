@@ -19,7 +19,7 @@
 
         <div class="col col-btn-download">
             <a  href="../../assets/Nicolas Arcamone - Cv (1).pdf.pdf" download="curriculum vitae"  class="btn btn-primary" >Descargar Cv <i class="bi bi-download"></i></a> 
-            <button class="btn btn-primary contacto">Contactame  <i class="bi bi-envelope"></i></button>
+            
         </div>
 
     </div>
@@ -159,7 +159,27 @@
     </div>
     
     
-
+    
+    <div class="row contactame" id="contacto">
+        <div class="col col-form">
+            <form  action="https://formsubmit.co/nicolas.arcamone7@gmail.com" method="POST">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" id="name" name="name" ngModel required class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" ngModel required class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea id="message" name="message" ngModel required class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+    
 
 
     <div class="row row-contacto">
@@ -174,9 +194,6 @@
         </div>
 
     </div>
-
-
-
 
 
 </div>
